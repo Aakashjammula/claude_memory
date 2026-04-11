@@ -15,9 +15,12 @@ claude_memory/
 │   ├── overview.md         ← evolving high-level synthesis
 │   ├── entities/           ← people, organizations, places, products
 │   ├── concepts/           ← ideas, frameworks, theories, themes
+│   ├── notes/              ← daily study notes (one file per study day)
 │   └── sources/            ← one summary page per ingested source
-└── raw/                    ← immutable source files (never modified)
-    └── assets/             ← downloaded images and attachments
+├── raw/                    ← immutable source files (never modified)
+│   └── assets/             ← downloaded images and attachments
+└── code/
+    └── fetch_playlist.py   ← yt-dlp script: extracts YouTube playlist metadata → raw/*.json
 ```
 
 **Invariants:**
@@ -175,6 +178,30 @@ Pages touched: [[page1]], [[page2]], ...
 ```
 
 Operations: `ingest`, `query`, `lint`, `update`, `schema-change`
+
+---
+
+## YouTube Playlist Workflow
+
+When the user pastes a YouTube playlist URL:
+1. A hook automatically runs `code/fetch_playlist.py` via `uv run`, saving metadata to `raw/<playlist-slug>.json`
+2. Claude reads the JSON from `raw/` — it contains every video title, URL, and index
+3. Claude creates daily notes pages in `wiki/notes/` — one file per study day, with a section per video including title, link, and a concepts/notes template
+4. Claude updates `wiki/concepts/<plan-slug>.md` with the full dated schedule
+5. Claude updates `wiki/index.md` and appends to `wiki/log.md`
+
+**Raw JSON format** (`raw/*.json`):
+```json
+{
+  "playlist_title": "...",
+  "playlist_url": "...",
+  "total_videos": 35,
+  "videos": [
+    { "index": 1, "title": "Intro to Statistics", "url": "https://...", "id": "abc123" },
+    ...
+  ]
+}
+```
 
 ---
 

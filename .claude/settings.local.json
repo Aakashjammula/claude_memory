@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "urls=$(jq -r '.tool_input.value // \"\"' | grep -oP 'https?://www\\.youtube\\.com/[^\\s]*list=[A-Za-z0-9_-]+' | head -5); if [ -n \"$urls\" ]; then echo \"$urls\" | while IFS= read -r url; do cd 'C:/Users/aakas/OneDrive/Desktop/memory/claude_memory/code' && uv run python fetch_playlist.py \"$url\"; done; fi",
+            "timeout": 120,
+            "statusMessage": "Fetching YouTube playlist metadata..."
+          }
+        ]
+      }
+    ]
+  }
+}
