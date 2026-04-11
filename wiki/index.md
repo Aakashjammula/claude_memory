@@ -1,5 +1,5 @@
 # Wiki Index
-_Last updated: 2026-04-11 | Sources: 3 | Wiki pages: 51_
+_Last updated: 2026-04-11 | Sources: 3 | Wiki pages: 78_
 
 ## Sources
 | Page | Title | Author | Ingested | Tags |
@@ -37,6 +37,33 @@ _Last updated: 2026-04-11 | Sources: 3 | Wiki pages: 51_
 | [[apr-10-day2]] | 2026-04-10 | Python Patterns + JS DSA Toolkit |
 | [[apr-11-day3]] | 2026-04-11 | Arrays + Hashing |
 | [[apr-12-day4-sd]] | 2026-04-12 | System Design #1 — Fundamentals |
+| [[apr-13-day5]] | 2026-04-13 | Strings |
+| [[apr-14-day6]] | 2026-04-14 | Two Pointers |
+| [[apr-15-day7]] | 2026-04-15 | Two Pointers + Sliding Window |
+| [[apr-16-day8]] | 2026-04-16 | Sliding Window |
+| [[apr-17-day9]] | 2026-04-17 | Sliding Window Hard + Review |
+| [[apr-18-day10-sd]] | 2026-04-18 | System Design #2 — Databases |
+| [[apr-19-day11]] | 2026-04-19 | Binary Search |
+| [[apr-20-day12]] | 2026-04-20 | Binary Search (cont) |
+| [[apr-21-day13]] | 2026-04-21 | Stack |
+| [[apr-22-day14]] | 2026-04-22 | Monotonic Stack |
+| [[apr-23-day15]] | 2026-04-23 | Linked Lists |
+| [[apr-24-day16]] | 2026-04-24 | Linked Lists — Fast/Slow Pointers |
+| [[apr-25-day17-sd]] | 2026-04-25 | System Design #3 — CAP + Kafka |
+| [[apr-26-day18]] | 2026-04-26 | Trees — DFS |
+| [[apr-27-day19]] | 2026-04-27 | Trees — BFS + BST |
+| [[apr-28-day20]] | 2026-04-28 | Trees — Hard |
+| [[apr-29-day21]] | 2026-04-29 | Graphs — BFS/DFS |
+| [[apr-30-day22]] | 2026-04-30 | Graphs — Topo Sort + Union-Find |
+| [[may-01-day23]] | 2026-05-01 | Heap / Priority Queue |
+| [[may-02-day24-sd]] | 2026-05-02 | System Design #4 — URL Shortener + Rate Limiter |
+| [[may-03-day25-mock]] | 2026-05-03 | Mock Interview #1 |
+| [[may-04-day26]] | 2026-05-04 | Greedy |
+| [[may-05-day27]] | 2026-05-05 | Dynamic Programming 1D |
+| [[may-06-day28]] | 2026-05-06 | DP 1D + 2D |
+| [[may-07-day29]] | 2026-05-07 | Backtracking |
+| [[may-08-day30-mock]] | 2026-05-08 | Mock Interview #2 |
+| [[may-09-day31-sd]] | 2026-05-09 | System Design #5 + Final Review + START APPLYING |
 | [[may-10-ps-1]] | 2026-05-10 | Stats #1–3: Intro, Population Statistics, Random Sampling |
 | [[may-11-ps-2]] | 2026-05-11 | Stats #4–6: Sample Variance, Normal Approximation, Confidence Intervals |
 | [[may-12-ps-3]] | 2026-05-12 | Stats #7–9: CLT Example, Hypothesis Testing, Hypothesis Testing Procedure |

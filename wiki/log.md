@@ -47,6 +47,12 @@ Fetched official Azure model retirement page. Critical finding: gpt-4o-realtime-
 
 Pages touched: [[azure-openai-realtime-models]], [[azure-openai-realtime-audio]]
 
+## [2026-04-11] update | All DSA + SD notes generated + Google Calendar ICS
+
+Generated 27 remaining DSA/SD daily notes (Apr 13 – May 9) covering Strings, Two Pointers, Sliding Window, Binary Search, Stack, Linked Lists, Trees, Graphs, Heap, Greedy, DP, Backtracking, 4 SD sessions, 2 mock interviews. Each DSA note has LeetCode problem links + solution template. Generated raw/study-plan.ics with 60 events (DSA + Prob/Stats) for Google Calendar import. Events scheduled 7–11 PM daily.
+
+Pages touched: wiki/notes/apr-13 through may-09 (27 files), [[index]], raw/study-plan.ics
+
 ## [2026-04-11] update | Prob/Stats daily notes generated with real video titles
 
 Ran yt-dlp via code/fetch_playlist.py to extract all 79 video titles from both Steve Brunton playlists. Generated 29 daily notes pages (wiki/notes/may-10-ps-1.md through jun-07-ps-29.md) using code/generate_ps_notes.py. Each page has actual video title, YouTube link, duration, and note-taking template per video. Updated index with all 29 pages.
