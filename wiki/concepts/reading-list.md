@@ -16,7 +16,8 @@ _Papers, articles, and resources queued for ingestion. Move to sources/ once ing
 ## Coding Resources
 | Title | Topic | Priority | Notes |
 |-------|-------|----------|-------|
-| _(none yet)_ | | | |
+| Introduction to Statistics and Data Analysis (35 videos) — Steve Brunton | statistics, ml, math | High | Scheduled May 10–23 · [[prob-stats-plan]] |
+| Probability Bootcamp (44 videos) — Steve Brunton | probability, ml, math | High | Scheduled May 22–Jun 7 · [[prob-stats-plan]] |
 
 ## Personal / Other
 | Title | Topic | Priority | Notes |

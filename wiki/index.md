@@ -1,5 +1,5 @@
 # Wiki Index
-_Last updated: 2026-04-09 | Sources: 3 | Wiki pages: 21_
+_Last updated: 2026-04-11 | Sources: 3 | Wiki pages: 22_
 
 ## Sources
 | Page | Title | Author | Ingested | Tags |
@@ -27,7 +27,8 @@ _Last updated: 2026-04-09 | Sources: 3 | Wiki pages: 21_
 | [[my-projects]] | Index of personal coding projects with status and stack |
 | [[reading-list]] | Papers and resources queued for ingestion |
 | [[personal-themes]] | Recurring themes across personal reflections and goals |
-| [[dsa-prep]] | Dated DSA + System Design interview prep plan (Apr 9 – Jun 28 2026) |
+| [[dsa-prep]] | Dated DSA + System Design interview prep plan (Apr 9 – May 9 2026) |
+| [[prob-stats-plan]] | Probability & Statistics study plan — Steve Brunton 79 videos (May 10 – Jun 7 2026) |
 
 ## Daily Notes
 | Page | Date | Topic |

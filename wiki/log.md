@@ -47,6 +47,12 @@ Fetched official Azure model retirement page. Critical finding: gpt-4o-realtime-
 
 Pages touched: [[azure-openai-realtime-models]], [[azure-openai-realtime-audio]]
 
+## [2026-04-11] update | Probability & Statistics plan added
+
+User found two Steve Brunton (@Eigensteve) playlists: "Introduction to Statistics and Data Analysis" (35 videos) and "Probability Bootcamp" (44 videos). Created prob-stats-plan.md with 4-week day-by-day schedule starting May 10 (after DSA sprint). 3 videos/day. Added both to reading-list. Relevant to GenAI role — Bayes, MLE, distributions, hypothesis testing.
+
+Pages touched: [[prob-stats-plan]], [[reading-list]], [[personal-themes]], [[index]]
+
 ## [2026-04-09] update | Day 1 notes page created + day correction
 
 Created wiki/notes/apr-09-day1.md — daily study note template for Python DSA Toolkit day. Added Daily Notes section to index. Corrected Apr 9 day label from Wednesday to Thursday.

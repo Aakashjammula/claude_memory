@@ -15,7 +15,8 @@ _(none yet — will emerge as personal sources are ingested)_
 _(none yet)_
 
 ## Goals Being Tracked
-- DSA + System Design interview prep — started 2026-04-09, target completion Jun 28 2026 — see [[dsa-prep]]
+- DSA + System Design interview prep — started 2026-04-09, target completion May 9 2026 — see [[dsa-prep]]
+- Probability & Statistics — Steve Brunton 79-video plan — starts May 10 2026 — see [[prob-stats-plan]]
 
 ---
 
