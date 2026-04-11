@@ -1,5 +1,5 @@
 # Wiki Index
-_Last updated: 2026-04-09 | Sources: 3 | Wiki pages: 20_
+_Last updated: 2026-04-09 | Sources: 3 | Wiki pages: 21_
 
 ## Sources
 | Page | Title | Author | Ingested | Tags |
@@ -35,6 +35,7 @@ _Last updated: 2026-04-09 | Sources: 3 | Wiki pages: 20_
 | [[apr-09-day1]] | 2026-04-09 | Python DSA Toolkit |
 | [[apr-10-day2]] | 2026-04-10 | Python Patterns + JS DSA Toolkit |
 | [[apr-11-day3]] | 2026-04-11 | Arrays + Hashing |
+| [[apr-12-day4-sd]] | 2026-04-12 | System Design #1 — Fundamentals |
 
 ## Synthesis
 - [[overview]] — Current synthesis across research, personal, and coding domains
