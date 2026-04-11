@@ -1,0 +1,287 @@
+{
+  "playlist_title": "Introduction to Statistics and Data Analysis",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLMrJAkhIeNNT14qn1c5qdL29A1UaHamjx",
+  "total_videos": 35,
+  "videos": [
+    {
+      "index": 1,
+      "title": "Introduction to Statistics and Data Analysis",
+      "url": "https://www.youtube.com/watch?v=QIXUTsdj_oA",
+      "id": "QIXUTsdj_oA",
+      "duration": 1341,
+      "description": null
+    },
+    {
+      "index": 2,
+      "title": "Population Statistics and Random Sampling",
+      "url": "https://www.youtube.com/watch?v=OlkL1YatyHI",
+      "id": "OlkL1YatyHI",
+      "duration": 1425,
+      "description": null
+    },
+    {
+      "index": 3,
+      "title": "Random Sampling in Statistics: Expected Value and Variance of the Sample Mean",
+      "url": "https://www.youtube.com/watch?v=Gg3d-rn9eEU",
+      "id": "Gg3d-rn9eEU",
+      "duration": 967,
+      "description": null
+    },
+    {
+      "index": 4,
+      "title": "Random Sampling Without Replacement (Finite \"n\" Correction)",
+      "url": "https://www.youtube.com/watch?v=IDvp3pMm16k",
+      "id": "IDvp3pMm16k",
+      "duration": 735,
+      "description": null
+    },
+    {
+      "index": 5,
+      "title": "Sample Variance in Random Population Sampling",
+      "url": "https://www.youtube.com/watch?v=yNnUVHfX5yQ",
+      "id": "yNnUVHfX5yQ",
+      "duration": 698,
+      "description": null
+    },
+    {
+      "index": 6,
+      "title": "Normal Approximation to Sample Mean",
+      "url": "https://www.youtube.com/watch?v=Arbj9SoU9Cs",
+      "id": "Arbj9SoU9Cs",
+      "duration": 1181,
+      "description": null
+    },
+    {
+      "index": 7,
+      "title": "Confidence Intervals",
+      "url": "https://www.youtube.com/watch?v=qTVdV8ITZfk",
+      "id": "qTVdV8ITZfk",
+      "duration": 1017,
+      "description": null
+    },
+    {
+      "index": 8,
+      "title": "Central Limit Theorem Example & Hypothesis Testing",
+      "url": "https://www.youtube.com/watch?v=bOrihOzYXWA",
+      "id": "bOrihOzYXWA",
+      "duration": 573,
+      "description": null
+    },
+    {
+      "index": 9,
+      "title": "Hypothesis Testing in Statistics",
+      "url": "https://www.youtube.com/watch?v=vVDahuv1bq8",
+      "id": "vVDahuv1bq8",
+      "duration": 1495,
+      "description": null
+    },
+    {
+      "index": 10,
+      "title": "Hypothesis Testing Procedure",
+      "url": "https://www.youtube.com/watch?v=WYifBkNg1r8",
+      "id": "WYifBkNg1r8",
+      "duration": 1081,
+      "description": null
+    },
+    {
+      "index": 11,
+      "title": "Hypothesis Testing: Type I and Type II Errors",
+      "url": "https://www.youtube.com/watch?v=129NuU3A7rM",
+      "id": "129NuU3A7rM",
+      "duration": 606,
+      "description": null
+    },
+    {
+      "index": 12,
+      "title": "Hypothesis Testing Example: Salk Vaccine Trial",
+      "url": "https://www.youtube.com/watch?v=V3aYG8mLmkI",
+      "id": "V3aYG8mLmkI",
+      "duration": 966,
+      "description": null
+    },
+    {
+      "index": 13,
+      "title": "Could Tobacco be Good for you?  Two Sided Rejection Regions in Hypothesis Testing",
+      "url": "https://www.youtube.com/watch?v=znnim8MTl0c",
+      "id": "znnim8MTl0c",
+      "duration": 740,
+      "description": null
+    },
+    {
+      "index": 14,
+      "title": "Lies, Damn Lies, and Statistics... P-Hacking",
+      "url": "https://www.youtube.com/watch?v=Et9pORQHR2A",
+      "id": "Et9pORQHR2A",
+      "duration": 1154,
+      "description": null
+    },
+    {
+      "index": 15,
+      "title": "Parameter Estimation and Fitting Distributions",
+      "url": "https://www.youtube.com/watch?v=7XVA2JRzYoE",
+      "id": "7XVA2JRzYoE",
+      "duration": 1453,
+      "description": null
+    },
+    {
+      "index": 16,
+      "title": "Method of Moments to Fit Distributions from Data",
+      "url": "https://www.youtube.com/watch?v=IZk0Iq2hI3c",
+      "id": "IZk0Iq2hI3c",
+      "duration": 662,
+      "description": null
+    },
+    {
+      "index": 17,
+      "title": "Error in the Method of Moments",
+      "url": "https://www.youtube.com/watch?v=341Ecdkfb-s",
+      "id": "341Ecdkfb-s",
+      "duration": 1121,
+      "description": null
+    },
+    {
+      "index": 18,
+      "title": "Bootstrapping and Monte Carlo Sampling in Statistics",
+      "url": "https://www.youtube.com/watch?v=wsU7YLcPXmE",
+      "id": "wsU7YLcPXmE",
+      "duration": 1019,
+      "description": null
+    },
+    {
+      "index": 19,
+      "title": "Maximum Likelihood Estimation (MLE) with Examples",
+      "url": "https://www.youtube.com/watch?v=rCdxlN6Ph14",
+      "id": "rCdxlN6Ph14",
+      "duration": 1426,
+      "description": null
+    },
+    {
+      "index": 20,
+      "title": "Maximum Likelihood Estimation Example: Fitting a Normal Distribution with Data",
+      "url": "https://www.youtube.com/watch?v=x5GOUgCTkjM",
+      "id": "x5GOUgCTkjM",
+      "duration": 953,
+      "description": null
+    },
+    {
+      "index": 21,
+      "title": "Properties of Maximum Likelihood Estimation",
+      "url": "https://www.youtube.com/watch?v=QVF0oOh7s8c",
+      "id": "QVF0oOh7s8c",
+      "duration": 840,
+      "description": null
+    },
+    {
+      "index": 22,
+      "title": "Bayesian Maximum Aposteriori Estimation (MAP): Extending Maximum Likelihood Estimation",
+      "url": "https://www.youtube.com/watch?v=xgfexqYxrDU",
+      "id": "xgfexqYxrDU",
+      "duration": 779,
+      "description": null
+    },
+    {
+      "index": 23,
+      "title": "Consistency of Parameter Estimates in Statistics",
+      "url": "https://www.youtube.com/watch?v=27wRPAg3H28",
+      "id": "27wRPAg3H28",
+      "duration": 624,
+      "description": null
+    },
+    {
+      "index": 24,
+      "title": "The Chi-Squared Test : Are Two Distributions the Same?  (with Python Example)",
+      "url": "https://www.youtube.com/watch?v=63S3FLISKMs",
+      "id": "63S3FLISKMs",
+      "duration": 1364,
+      "description": null
+    },
+    {
+      "index": 25,
+      "title": "Student's t-distribution in Statistics",
+      "url": "https://www.youtube.com/watch?v=kQoPUR0hQNo",
+      "id": "kQoPUR0hQNo",
+      "duration": 999,
+      "description": null
+    },
+    {
+      "index": 26,
+      "title": "Hypothesis Testing Revisited: Normal, t, and Chi-Squared Distribution Tests",
+      "url": "https://www.youtube.com/watch?v=u793OrRvZBk",
+      "id": "u793OrRvZBk",
+      "duration": 637,
+      "description": null
+    },
+    {
+      "index": 27,
+      "title": "Properties of Chi-Squared and Student's t Distributions",
+      "url": "https://www.youtube.com/watch?v=so04ygeccwk",
+      "id": "so04ygeccwk",
+      "duration": 610,
+      "description": null
+    },
+    {
+      "index": 28,
+      "title": "Bayesian Inference: Overview",
+      "url": "https://www.youtube.com/watch?v=XCEpIBqKogo",
+      "id": "XCEpIBqKogo",
+      "duration": 1816,
+      "description": null
+    },
+    {
+      "index": 29,
+      "title": "Bayesian Updates and Conjugate Priors",
+      "url": "https://www.youtube.com/watch?v=GqSX-8AQL90",
+      "id": "GqSX-8AQL90",
+      "duration": 1058,
+      "description": null
+    },
+    {
+      "index": 30,
+      "title": "Conjugate Priors Example: Normal Distribution and the Exponential Family of Distributions",
+      "url": "https://www.youtube.com/watch?v=q8ypTSQotXQ",
+      "id": "q8ypTSQotXQ",
+      "duration": 1128,
+      "description": null
+    },
+    {
+      "index": 31,
+      "title": "Density Estimation with Gaussian Mixture Models (GMM) and Empirical Priors",
+      "url": "https://www.youtube.com/watch?v=a1pvm1QGXYg",
+      "id": "a1pvm1QGXYg",
+      "duration": 1096,
+      "description": null
+    },
+    {
+      "index": 32,
+      "title": "Monte Carlo Sampling and Bootstrapping in Bayesian Inference",
+      "url": "https://www.youtube.com/watch?v=f1Vcc-bPfnU",
+      "id": "f1Vcc-bPfnU",
+      "duration": 1095,
+      "description": null
+    },
+    {
+      "index": 33,
+      "title": "Bayesian Linear Regression and Maximum Likelihood Estimates",
+      "url": "https://www.youtube.com/watch?v=qTRgdhgmFyc",
+      "id": "qTRgdhgmFyc",
+      "duration": 1155,
+      "description": null
+    },
+    {
+      "index": 34,
+      "title": "Bayesian Linear Regression and Maximum a Posteriori (MAP) Estimate",
+      "url": "https://www.youtube.com/watch?v=wdWHbYdhfG8",
+      "id": "wdWHbYdhfG8",
+      "duration": 917,
+      "description": null
+    },
+    {
+      "index": 35,
+      "title": "Bayesian Linear Regression [Python Example]",
+      "url": "https://www.youtube.com/watch?v=GiIxJ5tqGoE",
+      "id": "GiIxJ5tqGoE",
+      "duration": 1006,
+      "description": null
+    }
+  ]
+}

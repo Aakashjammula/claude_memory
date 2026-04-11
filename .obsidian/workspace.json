@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "3aa84f933c7cb9c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0448fb197bd92134",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89d78cf9f8e5919e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd72f826f05ba692",
+    "type": "split",
+    "children": [
+      {
+        "id": "41d34116d5a69559",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0cf098d083c924f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "308c69defe0171eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8dc26c1cc38fb9d6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d205a9e417dd6d2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c74aa1c746216862",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be508b7dfdcc0ce6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c492f4386e132298",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1343ae220545143f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "35e63066d9d4d977",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2db4078dd5d54a6d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "89d78cf9f8e5919e",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "README.md",
+    "wiki/entities/anthropic.md",
+    "wiki/concepts/azure-openai-realtime-models.md",
+    "wiki/concepts/prob-stats-plan.md",
+    "wiki/concepts/realtime-audio-api.md",
+    "wiki/concepts/speech-to-speech-agents.md",
+    "wiki/notes/may-25-ps-16.md",
+    "wiki/notes/may-09-ps-29.md",
+    "wiki/notes/may-08-ps-28.md",
+    "wiki/notes/may-07-ps-27.md",
+    "wiki/notes/may-06-ps-26.md",
+    "wiki/notes/may-05-ps-25.md",
+    "wiki/notes/may-04-ps-24.md",
+    "wiki/notes/may-03-ps-23.md",
+    "wiki/notes/may-02-ps-22.md",
+    "wiki/notes/may-01-ps-21.md",
+    "wiki/notes/apr-30-ps-20.md",
+    "wiki/notes/apr-29-ps-19.md",
+    "wiki/notes/apr-28-ps-18.md",
+    "wiki/notes/apr-27-ps-17.md",
+    "wiki/notes/apr-26-ps-16.md",
+    "wiki/notes/apr-25-ps-15.md",
+    "wiki/notes/apr-24-ps-14.md",
+    "wiki/notes/apr-23-ps-13.md",
+    "wiki/notes/apr-22-ps-12.md",
+    "code/rebase_plan.py",
+    "raw/study-plan.ics",
+    "code/generate_calendar.py",
+    "code/generate_dsa_notes.py",
+    "code/generate_ps_notes.py",
+    "raw/probability-bootcamp.json",
+    "raw/introduction-to-statistics-and-data-analysis.json",
+    "code/uv.lock",
+    "code/pyproject.toml",
+    "code/main.py",
+    "Untitled.canvas"
+  ]
+}

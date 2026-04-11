@@ -181,11 +181,37 @@ Operations: `ingest`, `query`, `lint`, `update`, `schema-change`
 
 ---
 
+## Code Toolbox
+
+All scripts live in `code/` and run via `uv run python <script>.py` from that directory.
+See `code/README.md` for full documentation. Summary:
+
+| Script | What it does | When to use |
+|--------|-------------|-------------|
+| `wiki_tools.py` | Shared library — paths, date helpers, note I/O | Import in any new tool |
+| `fetch_playlist.py` | YouTube playlist → `raw/<slug>.json` | User drops a YouTube playlist URL |
+| `generate_calendar.py` | Study plan → `raw/study-plan.ics` | Plan dates change; re-import into Google Calendar |
+
+**`wiki_tools.py` key exports** (always import this instead of duplicating paths):
+```python
+from wiki_tools import (
+    BASE, NOTES_DIR, RAW_DIR, WIKI_DIR, CONCEPTS_DIR,
+    date_to_slug, date_to_dow, date_to_display, slug_to_date,
+    read_note, write_note, note_exists, list_notes,
+    read_index, read_log, append_log,
+    read_concept, write_concept,
+)
+```
+
+**One-off scripts** are in `code/_archive/` — do not re-run them.
+
+---
+
 ## YouTube Playlist Workflow
 
 When the user pastes a YouTube playlist URL:
-1. A hook automatically runs `code/fetch_playlist.py` via `uv run`, saving metadata to `raw/<playlist-slug>.json`
-2. Claude reads the JSON from `raw/` — it contains every video title, URL, and index
+1. Run `uv run python fetch_playlist.py "<url>"` from `code/` — saves to `raw/<slug>.json`
+2. Claude reads the JSON from `raw/` — it contains every video title, URL, duration, and index
 3. Claude creates daily notes pages in `wiki/notes/` — one file per study day, with a section per video including title, link, and a concepts/notes template
 4. Claude updates `wiki/concepts/<plan-slug>.md` with the full dated schedule
 5. Claude updates `wiki/index.md` and appends to `wiki/log.md`
@@ -197,7 +223,7 @@ When the user pastes a YouTube playlist URL:
   "playlist_url": "...",
   "total_videos": 35,
   "videos": [
-    { "index": 1, "title": "Intro to Statistics", "url": "https://...", "id": "abc123" },
+    { "index": 1, "title": "Intro to Statistics", "url": "https://...", "id": "abc123", "duration": 1320 },
     ...
   ]
 }

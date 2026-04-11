@@ -47,6 +47,12 @@ Fetched official Azure model retirement page. Critical finding: gpt-4o-realtime-
 
 Pages touched: [[azure-openai-realtime-models]], [[azure-openai-realtime-audio]]
 
+## [2026-04-11] update | Plan rebased — Day 1 = Apr 11, DSA + PS in parallel
+
+Rebased the entire study plan so Day 1 starts TODAY (Apr 11). DSA and PS now run in parallel (2 hrs DSA 7–9 PM + 2 hrs PS 9–11 PM). All 31 DSA notes and 29 PS notes renamed with +2 day shift (DSA: Apr 9 → Apr 11, PS: May 10 → Apr 11). Calendar ICS regenerated with parallel time slots. Updated dsa-prep.md, prob-stats-plan.md, and index.
+
+Pages touched: All 60 notes files, [[dsa-prep]], [[prob-stats-plan]], [[index]], raw/study-plan.ics
+
 ## [2026-04-11] update | All DSA + SD notes generated + Google Calendar ICS
 
 Generated 27 remaining DSA/SD daily notes (Apr 13 – May 9) covering Strings, Two Pointers, Sliding Window, Binary Search, Stack, Linked Lists, Trees, Graphs, Heap, Greedy, DP, Backtracking, 4 SD sessions, 2 mock interviews. Each DSA note has LeetCode problem links + solution template. Generated raw/study-plan.ics with 60 events (DSA + Prob/Stats) for Google Calendar import. Events scheduled 7–11 PM daily.
@@ -90,3 +96,33 @@ Pages touched: [[dsa-prep]], [[personal-themes]], [[index]]
 Ingested Google's Vertex AI Live API docs. Key findings: Google is ~10× cheaper on audio input ($3 vs $32/1M tokens) and ~5× cheaper on audio output. Larger context window (128k vs 32k). But: 10–15 min session cap, audio input at 16kHz (vs Azure's 24kHz — must resample in multi-provider builds). Model `gemini-live-2.5-flash-native-audio` is GA; preview variant deprecated 2026-03-19. Added full Azure vs Google comparison table to [[speech-to-speech-agents]] including pricing, session limits, features, and multi-provider routing strategy.
 
 Pages touched: [[google-vertex-live-api]], [[google-vertex-ai]], [[speech-to-speech-agents]], [[index]]
+
+## [2026-04-11] update | Repaired PS note frontmatter dates (double-shift bug)
+
+A previous session's two-pass rebase script double-shifted the PS note frontmatter dates by -29 days (correct after pass 1, then shifted again in pass 2). All 29 PS notes now have the correct frontmatter dates: apr-11-ps-1 → 2026-04-11, may-09-ps-29 → 2026-05-09. Body dates and filenames were already correct. Also deleted rogue `may-25-ps-16.md`.
+
+Pages touched: All 29 PS notes (frontmatter only)
+
+## [2026-04-11] update | Cleaned and generalized code/ toolbox
+
+Restructured code/ into a proper toolbox. Created wiki_tools.py as the shared library (paths, date helpers, note I/O, log helpers). Rewrote generate_calendar.py to be config-driven with DSA_START/PS_START at the top. Updated fetch_playlist.py to import from wiki_tools. Moved one-off scripts (generate_dsa_notes.py, generate_ps_notes.py, generate_calendar.old.py, rebase_plan.py) to code/_archive/. Deleted temporary repair scripts and junk files. Updated CLAUDE.md with a Code Toolbox section documenting all available tools and wiki_tools exports.
+
+Pages touched: CLAUDE.md, code/README.md, code/wiki_tools.py, code/generate_calendar.py, code/fetch_playlist.py
+
+## [2026-04-11] update | Created entity page for Steve Brunton (@Eigensteve)
+
+Noted that the primary educator for the Prob/Stats track had no entity page despite two of his playlists being the backbone of the 29-day PS study plan. Created [[steve-brunton]] with full profile: UW professor, YouTube channel details, both playlist links, connection to raw JSON files. Added to [[index]] (entities table, page count 78→79) and linked back from [[prob-stats-plan]].
+
+Pages touched: [[steve-brunton]], [[prob-stats-plan]], [[index]]
+
+## [2026-04-11] update | prob-stats-plan enriched with real video titles and concepts per day
+
+Rewrote prob-stats-plan.md using actual video titles from raw/introduction-to-statistics-and-data-analysis.json (35 videos) and raw/probability-bootcamp.json (44 videos). Every day row now shows: exact video titles, a Key Concepts column summarising the math covered (formulas, definitions, key ideas). Added a full Key Concepts to Master table mapping concepts to video numbers and FAANG/GenAI relevance.
+
+Pages touched: [[prob-stats-plan]]
+
+## [2026-04-11] update | Added 79-video quick reference table to prob-stats-plan
+
+Added a new "All 79 Videos — Quick Reference" section to prob-stats-plan.md. Each of the 79 videos (S1–S35 from Introduction to Statistics and Data Analysis + P1–P44 from Probability Bootcamp) has its own row with: study day, video number, clickable YouTube link, key concepts/formulas taught, and duration in minutes. Generated via code/append_video_table.py from raw playlist JSONs. Also moved append_video_table.py into code/ as a reusable tool.
+
+Pages touched: [[prob-stats-plan]]

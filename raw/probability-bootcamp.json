@@ -1,0 +1,359 @@
+{
+  "playlist_title": "Probability Bootcamp",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLMrJAkhIeNNR3sNYvfgiKgcStwuPSts9V",
+  "total_videos": 44,
+  "videos": [
+    {
+      "index": 1,
+      "title": "Probability and Statistics: Overview",
+      "url": "https://www.youtube.com/watch?v=sQqniayndb4",
+      "id": "sQqniayndb4",
+      "duration": 1783,
+      "description": null
+    },
+    {
+      "index": 2,
+      "title": "Gentle Introduction to Probability: Counting Coin Flips and Dice",
+      "url": "https://www.youtube.com/watch?v=4T3aOIfNdTY",
+      "id": "4T3aOIfNdTY",
+      "duration": 1205,
+      "description": null
+    },
+    {
+      "index": 3,
+      "title": "Counting Probabilities with Combinatorics and the Factorial",
+      "url": "https://www.youtube.com/watch?v=5mDYZMwTAF8",
+      "id": "5mDYZMwTAF8",
+      "duration": 1070,
+      "description": null
+    },
+    {
+      "index": 4,
+      "title": "Set Theory in Probability: Sample Spaces and Events",
+      "url": "https://www.youtube.com/watch?v=b_ev4Hdzh-U",
+      "id": "b_ev4Hdzh-U",
+      "duration": 1453,
+      "description": null
+    },
+    {
+      "index": 5,
+      "title": "The Birthday Problem in Probability: P(A) = 1 - P(not A)",
+      "url": "https://www.youtube.com/watch?v=m7hI2LulMxE",
+      "id": "m7hI2LulMxE",
+      "duration": 1221,
+      "description": null
+    },
+    {
+      "index": 6,
+      "title": "Quality Control, Non-Destructive Inspection, and the Multinomial Distribution",
+      "url": "https://www.youtube.com/watch?v=e7RAK_iQBp0",
+      "id": "e7RAK_iQBp0",
+      "duration": 810,
+      "description": null
+    },
+    {
+      "index": 7,
+      "title": "The Binomial Distribution and the Multinomial Distribution",
+      "url": "https://www.youtube.com/watch?v=UXB9eeMZfwo",
+      "id": "UXB9eeMZfwo",
+      "duration": 992,
+      "description": null
+    },
+    {
+      "index": 8,
+      "title": "Conditional Probabilities",
+      "url": "https://www.youtube.com/watch?v=KjdS_o5HNII",
+      "id": "KjdS_o5HNII",
+      "duration": 791,
+      "description": null
+    },
+    {
+      "index": 9,
+      "title": "The Law of Total Probability",
+      "url": "https://www.youtube.com/watch?v=UzEPJEQF4W0",
+      "id": "UzEPJEQF4W0",
+      "duration": 613,
+      "description": null
+    },
+    {
+      "index": 10,
+      "title": "Bayes' Theorem (with Example!)",
+      "url": "https://www.youtube.com/watch?v=akClB1J6b28",
+      "id": "akClB1J6b28",
+      "duration": 1063,
+      "description": null
+    },
+    {
+      "index": 11,
+      "title": "Bayes' Theorem Example: Drug Testing 🌿",
+      "url": "https://www.youtube.com/watch?v=gE6RnZJixUw",
+      "id": "gE6RnZJixUw",
+      "duration": 752,
+      "description": null
+    },
+    {
+      "index": 12,
+      "title": "Independence in Probability",
+      "url": "https://www.youtube.com/watch?v=2nDYX8IKrwo",
+      "id": "2nDYX8IKrwo",
+      "duration": 780,
+      "description": null
+    },
+    {
+      "index": 13,
+      "title": "Random Variables and Probability Distributions",
+      "url": "https://www.youtube.com/watch?v=-7QG2itL1u4",
+      "id": "-7QG2itL1u4",
+      "duration": 1316,
+      "description": null
+    },
+    {
+      "index": 14,
+      "title": "Bernoulli and Binomial Random Variables",
+      "url": "https://www.youtube.com/watch?v=Tc6g-Y-l0Rg",
+      "id": "Tc6g-Y-l0Rg",
+      "duration": 1481,
+      "description": null
+    },
+    {
+      "index": 15,
+      "title": "The Normal Distribution: The Limit of Binomial Distribution for Large \"n\"",
+      "url": "https://www.youtube.com/watch?v=8n1n0OM4gLk",
+      "id": "8n1n0OM4gLk",
+      "duration": 1035,
+      "description": null
+    },
+    {
+      "index": 16,
+      "title": "The Standard Unit Normal and Probability Computations",
+      "url": "https://www.youtube.com/watch?v=X9Pkzaw0SpE",
+      "id": "X9Pkzaw0SpE",
+      "duration": 1032,
+      "description": null
+    },
+    {
+      "index": 17,
+      "title": "The Poisson Distribution: The Rare Event Limit of a Binomial Distribution",
+      "url": "https://www.youtube.com/watch?v=7vXLH2H6fZw",
+      "id": "7vXLH2H6fZw",
+      "duration": 781,
+      "description": null
+    },
+    {
+      "index": 18,
+      "title": "The Geometric Distribution: The First Success of a Bernoulli Distribution",
+      "url": "https://www.youtube.com/watch?v=0lpOeU6JZZw",
+      "id": "0lpOeU6JZZw",
+      "duration": 776,
+      "description": null
+    },
+    {
+      "index": 19,
+      "title": "The Exponential Distribution: Time Between Poisson Events",
+      "url": "https://www.youtube.com/watch?v=C7V3d2yB58U",
+      "id": "C7V3d2yB58U",
+      "duration": 1126,
+      "description": null
+    },
+    {
+      "index": 20,
+      "title": "The Hazard Rate and Memoryless Property of the Exponential Distribution",
+      "url": "https://www.youtube.com/watch?v=8qZilAKQM6s",
+      "id": "8qZilAKQM6s",
+      "duration": 431,
+      "description": null
+    },
+    {
+      "index": 21,
+      "title": "The Connection Between the Exponential Distribution and the Poisson Process",
+      "url": "https://www.youtube.com/watch?v=OWYGlwy0lkI",
+      "id": "OWYGlwy0lkI",
+      "duration": 613,
+      "description": null
+    },
+    {
+      "index": 22,
+      "title": "The Gamma Distribution",
+      "url": "https://www.youtube.com/watch?v=9IIcHAJlcWc",
+      "id": "9IIcHAJlcWc",
+      "duration": 750,
+      "description": null
+    },
+    {
+      "index": 23,
+      "title": "Functions of a Random Variable",
+      "url": "https://www.youtube.com/watch?v=hC2idx2-GME",
+      "id": "hC2idx2-GME",
+      "duration": 816,
+      "description": null
+    },
+    {
+      "index": 24,
+      "title": "Rescaling the Normal Distribution to Mean Zero and Variance One",
+      "url": "https://www.youtube.com/watch?v=pm4si2u-ZC4",
+      "id": "pm4si2u-ZC4",
+      "duration": 555,
+      "description": null
+    },
+    {
+      "index": 25,
+      "title": "The Chi Squared Distribution: The Square of the Normal Distribution",
+      "url": "https://www.youtube.com/watch?v=h9j849vAsAA",
+      "id": "h9j849vAsAA",
+      "duration": 788,
+      "description": null
+    },
+    {
+      "index": 26,
+      "title": "Joint Probability Distributions",
+      "url": "https://www.youtube.com/watch?v=NBo5bXIX7Ac",
+      "id": "NBo5bXIX7Ac",
+      "duration": 874,
+      "description": null
+    },
+    {
+      "index": 27,
+      "title": "Joint Probability Distributions: Marginal and Conditional Densities",
+      "url": "https://www.youtube.com/watch?v=pribJ8bUBzo",
+      "id": "pribJ8bUBzo",
+      "duration": 576,
+      "description": null
+    },
+    {
+      "index": 28,
+      "title": "The Expected Value (Mean) of a Probability Distribution",
+      "url": "https://www.youtube.com/watch?v=CBgCR1kHSUI",
+      "id": "CBgCR1kHSUI",
+      "duration": 924,
+      "description": null
+    },
+    {
+      "index": 29,
+      "title": "Properties of the Expected Value",
+      "url": "https://www.youtube.com/watch?v=8rnzHE2UtoM",
+      "id": "8rnzHE2UtoM",
+      "duration": 618,
+      "description": null
+    },
+    {
+      "index": 30,
+      "title": "Variance and Standard Deviation",
+      "url": "https://www.youtube.com/watch?v=dmSRMYQsM8w",
+      "id": "dmSRMYQsM8w",
+      "duration": 779,
+      "description": null
+    },
+    {
+      "index": 31,
+      "title": "Example of Computing the Expectation and Variance of an Exponential Distribution",
+      "url": "https://www.youtube.com/watch?v=Fz9_yqdEt-I",
+      "id": "Fz9_yqdEt-I",
+      "duration": 718,
+      "description": null
+    },
+    {
+      "index": 32,
+      "title": "Two Examples of Expected Values & Functions: Temperature in C vs F, and the Kinetic Theory of Gases",
+      "url": "https://www.youtube.com/watch?v=fB6-lCdkEdQ",
+      "id": "fB6-lCdkEdQ",
+      "duration": 926,
+      "description": null
+    },
+    {
+      "index": 33,
+      "title": "Markov's Inequality in Probability: First Order Estimates",
+      "url": "https://www.youtube.com/watch?v=onZSWfbTeho",
+      "id": "onZSWfbTeho",
+      "duration": 489,
+      "description": null
+    },
+    {
+      "index": 34,
+      "title": "Chebyshev's Inequality in Probability: Second Order Estimates",
+      "url": "https://www.youtube.com/watch?v=otCHN3s52ho",
+      "id": "otCHN3s52ho",
+      "duration": 584,
+      "description": null
+    },
+    {
+      "index": 35,
+      "title": "The Law of Large Numbers",
+      "url": "https://www.youtube.com/watch?v=0VoRWJMt6mk",
+      "id": "0VoRWJMt6mk",
+      "duration": 764,
+      "description": null
+    },
+    {
+      "index": 36,
+      "title": "The Central Limit Theorem",
+      "url": "https://www.youtube.com/watch?v=ckkrS752tjU",
+      "id": "ckkrS752tjU",
+      "duration": 657,
+      "description": null
+    },
+    {
+      "index": 37,
+      "title": "The Moment Generating Function",
+      "url": "https://www.youtube.com/watch?v=u0ku4bvp40I",
+      "id": "u0ku4bvp40I",
+      "duration": 1317,
+      "description": null
+    },
+    {
+      "index": 38,
+      "title": "Example of The Moment Generating Function",
+      "url": "https://www.youtube.com/watch?v=JjaOtHaDy9E",
+      "id": "JjaOtHaDy9E",
+      "duration": 588,
+      "description": null
+    },
+    {
+      "index": 39,
+      "title": "The Lebesque Measure in Probability",
+      "url": "https://www.youtube.com/watch?v=j6AD6Dm9sSs",
+      "id": "j6AD6Dm9sSs",
+      "duration": 381,
+      "description": null
+    },
+    {
+      "index": 40,
+      "title": "Additive Property of the Moment Generating Function",
+      "url": "https://www.youtube.com/watch?v=rn655n2JtgI",
+      "id": "rn655n2JtgI",
+      "duration": 378,
+      "description": null
+    },
+    {
+      "index": 41,
+      "title": "Covariance and Correlation in Probability",
+      "url": "https://www.youtube.com/watch?v=QKPdk57y7Ck",
+      "id": "QKPdk57y7Ck",
+      "duration": 1174,
+      "description": null
+    },
+    {
+      "index": 42,
+      "title": "Covariance and Correlation: Example with Gaussian Distributions",
+      "url": "https://www.youtube.com/watch?v=upPn685IU_Q",
+      "id": "upPn685IU_Q",
+      "duration": 329,
+      "description": null
+    },
+    {
+      "index": 43,
+      "title": "The Tail Sum Formula in Probability",
+      "url": "https://www.youtube.com/watch?v=XQYkD_fct1A",
+      "id": "XQYkD_fct1A",
+      "duration": 544,
+      "description": null
+    },
+    {
+      "index": 44,
+      "title": "Proof of the Central Limit Theorem",
+      "url": "https://www.youtube.com/watch?v=nWadI0_u6QU",
+      "id": "nWadI0_u6QU",
+      "duration": 1584,
+      "description": null
+    }
+  ]
+}

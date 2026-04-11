@@ -24,8 +24,7 @@ import subprocess
 import sys
 from urllib.parse import urlparse, parse_qs
 
-RAW_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "raw")
-os.makedirs(RAW_DIR, exist_ok=True)
+from wiki_tools import RAW_DIR  # canonical path
 
 # Default playlists — used when no URL is passed as argument
 DEFAULT_PLAYLISTS = [
@@ -122,7 +121,7 @@ def save(url: str, playlist_title: str, videos: list[dict]) -> str:
     filepath = os.path.join(RAW_DIR, f"{slug}.json")
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
-    print(f"Saved {len(videos)} videos → {filepath}")
+    print(f"Saved {len(videos)} videos -> {filepath}")
     return filepath
 
 
@@ -144,7 +143,7 @@ def main():
             print(f"  {v['index']:>2}. {v['title']}")
         if len(videos) > 5:
             print(f"  ... and {len(videos) - 5} more")
-        print(f"\nJSON saved → {filepath}")
+        print(f"\nJSON saved -> {filepath}")
         print("Tell Claude to ingest it to build the notes pages.")
 
 
