@@ -47,6 +47,12 @@ Fetched official Azure model retirement page. Critical finding: gpt-4o-realtime-
 
 Pages touched: [[azure-openai-realtime-models]], [[azure-openai-realtime-audio]]
 
+## [2026-04-11] update | Prob/Stats daily notes generated with real video titles
+
+Ran yt-dlp via code/fetch_playlist.py to extract all 79 video titles from both Steve Brunton playlists. Generated 29 daily notes pages (wiki/notes/may-10-ps-1.md through jun-07-ps-29.md) using code/generate_ps_notes.py. Each page has actual video title, YouTube link, duration, and note-taking template per video. Updated index with all 29 pages.
+
+Pages touched: wiki/notes/may-10-ps-1 through jun-07-ps-29, [[index]]
+
 ## [2026-04-11] update | Probability & Statistics plan added
 
 User found two Steve Brunton (@Eigensteve) playlists: "Introduction to Statistics and Data Analysis" (35 videos) and "Probability Bootcamp" (44 videos). Created prob-stats-plan.md with 4-week day-by-day schedule starting May 10 (after DSA sprint). 3 videos/day. Added both to reading-list. Relevant to GenAI role — Bayes, MLE, distributions, hypothesis testing.
