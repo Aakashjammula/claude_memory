@@ -2,7 +2,7 @@
 fetch_playlist.py
 -----------------
 Uses yt-dlp to extract playlist metadata (titles, URLs, descriptions)
-and saves them as JSON files in raw/
+and saves them as JSON files in raw/playlists/
 
 Install: uv add yt-dlp  (inside code/ folder)
 
@@ -24,7 +24,7 @@ import subprocess
 import sys
 from urllib.parse import urlparse, parse_qs
 
-from wiki_tools import RAW_DIR  # canonical path
+from wiki_tools import PLAYLISTS_DIR  # canonical path
 
 # Default playlists — used when no URL is passed as argument
 DEFAULT_PLAYLISTS = [
@@ -105,7 +105,7 @@ def fetch_playlist(url: str) -> tuple[str, list[dict]]:
 
 
 def save(url: str, playlist_title: str, videos: list[dict]) -> str:
-    """Save extracted data as JSON in raw/. Returns the filepath."""
+    """Save extracted data as JSON in raw/playlists/. Returns the filepath."""
     slug = url_to_slug(url)
     # Use cleaned playlist title as slug if available
     if playlist_title and playlist_title != "Unknown Playlist":
@@ -118,7 +118,7 @@ def save(url: str, playlist_title: str, videos: list[dict]) -> str:
         "total_videos": len(videos),
         "videos": videos,
     }
-    filepath = os.path.join(RAW_DIR, f"{slug}.json")
+    filepath = os.path.join(PLAYLISTS_DIR, f"{slug}.json")
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
     print(f"Saved {len(videos)} videos -> {filepath}")

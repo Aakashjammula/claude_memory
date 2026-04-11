@@ -15,17 +15,25 @@ claude_memory/
 │   ├── overview.md         ← evolving high-level synthesis
 │   ├── entities/           ← people, organizations, places, products
 │   ├── concepts/           ← ideas, frameworks, theories, themes
-│   ├── notes/              ← daily study notes (one file per study day)
 │   └── sources/            ← one summary page per ingested source
+├── notes/                  ← daily study logs (one file per study day)
+├── study-plans/            ← dated study plans and schedules
 ├── raw/                    ← immutable source files (never modified)
-│   └── assets/             ← downloaded images and attachments
+│   ├── books/              ← ebooks, textbooks
+│   ├── papers/             ← academic PDFs, preprints
+│   ├── articles/           ← blog posts, docs saved locally
+│   ├── videos/             ← actual downloaded video files
+│   ├── playlists/          ← YouTube playlist JSONs (metadata, URLs, titles)
+│   ├── images/             ← downloaded images and attachments
+│   └── docs/               ← exported notes, Word docs, misc files
 └── code/
-    └── fetch_playlist.py   ← yt-dlp script: extracts YouTube playlist metadata → raw/*.json
+    └── fetch_playlist.py   ← yt-dlp script: extracts YouTube playlist metadata → raw/videos/*.json
 ```
 
 **Invariants:**
 - `raw/` is read-only. The LLM reads sources from here but never writes or modifies them.
 - `wiki/` is fully owned by the LLM. The LLM creates, updates, and maintains all files here.
+- `notes/` and `study-plans/` are fully owned by the LLM.
 - `CLAUDE.md` is co-owned. The LLM proposes changes; the user approves them.
 
 ---
@@ -52,7 +60,8 @@ author: <author(s) or "Unknown">
 date: <publication date or "Unknown">
 ingested: <YYYY-MM-DD>
 tags: [<topic1>, <topic2>]
-raw: <path to raw file, or URL>
+source_type: <paper | book | article | video | audio | doc | url>
+raw: <local path e.g. raw/papers/foo.pdf — OR — original URL for web sources>
 ---
 
 ## Summary
@@ -189,8 +198,7 @@ See `code/README.md` for full documentation. Summary:
 | Script | What it does | When to use |
 |--------|-------------|-------------|
 | `wiki_tools.py` | Shared library — paths, date helpers, note I/O | Import in any new tool |
-| `fetch_playlist.py` | YouTube playlist → `raw/<slug>.json` | User drops a YouTube playlist URL |
-| `generate_calendar.py` | Study plan → `raw/study-plan.ics` | Plan dates change; re-import into Google Calendar |
+| `fetch_playlist.py` | YouTube playlist → `raw/playlists/<slug>.json` | User drops a YouTube playlist URL |
 
 **`wiki_tools.py` key exports** (always import this instead of duplicating paths):
 ```python
@@ -203,20 +211,19 @@ from wiki_tools import (
 )
 ```
 
-**One-off scripts** are in `code/_archive/` — do not re-run them.
-
 ---
 
 ## YouTube Playlist Workflow
 
 When the user pastes a YouTube playlist URL:
-1. Run `uv run python fetch_playlist.py "<url>"` from `code/` — saves to `raw/<slug>.json`
-2. Claude reads the JSON from `raw/` — it contains every video title, URL, duration, and index
-3. Claude creates daily notes pages in `wiki/notes/` — one file per study day, with a section per video including title, link, and a concepts/notes template
-4. Claude updates `wiki/concepts/<plan-slug>.md` with the full dated schedule
-5. Claude updates `wiki/index.md` and appends to `wiki/log.md`
+1. Run `uv run python fetch_playlist.py "<url>"` from `code/` — saves to `raw/playlists/<slug>.json`
+2. Claude reads the JSON from `raw/playlists/` — it contains every video title, URL, duration, and index
+3. Claude creates daily note stubs in `notes/` — one file per study day, with a section per video including title, link, and a concepts/notes template
+4. Claude creates a study plan in `study-plans/<plan-slug>.md` with the full dated schedule
+5. Claude syncs events directly to Google Calendar (`aakashjammula6@gmail.com`) via the connector
+6. Claude updates `wiki/index.md` and appends to `wiki/log.md`
 
-**Raw JSON format** (`raw/*.json`):
+**Raw JSON format** (`raw/videos/*.json`):
 ```json
 {
   "playlist_title": "...",
@@ -274,6 +281,37 @@ When the user says "lint" or "health check":
    - Missing cross-references (entity appears in source summary but has no entity page)
    - Data gaps (important questions with no sourced answer)
 3. Produce a lint report and offer to fix each issue.
+
+---
+
+## Create Study Plan Workflow
+
+When the user says "create a study plan for [topic]" or provides a playlist/syllabus:
+
+1. **Clarify** with the user: start date, daily time budget, any blackout dates.
+2. **Generate** a dated plan in `study-plans/<topic-slug>.md` with:
+   - A schedule table: date, day number, topic, resources
+   - Links to daily note stubs
+3. **Create** daily note stubs in `notes/` — one per study day with a template:
+   - Topic, resources for that day
+   - Sections: Key Concepts, Notes, Questions, Links to wiki concept pages
+4. **Sync to Google Calendar** — push each study session as an event to the user's primary calendar (`aakashjammula6@gmail.com`) using the Google Calendar connector. No ICS file needed.
+5. **Update** `wiki/index.md` and append to `wiki/log.md`.
+
+---
+
+## Study Session Capture Workflow
+
+When the user says "I studied [topic] today" or "add notes for today":
+
+1. **Update** `notes/<date>.md` — log what was covered, resources used, raw observations, questions.
+2. **Distill** into `wiki/concepts/<topic>.md` — create or update the concept page with:
+   - Definitions, patterns, examples, gotchas
+   - Links to related concepts and sources
+3. **Update** `wiki/index.md` if a new concept page was created.
+4. **Append** to `wiki/log.md`.
+
+The daily note is disposable scaffolding. The concept page is what survives and grows.
 
 ---
 

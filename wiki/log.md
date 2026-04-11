@@ -121,6 +121,12 @@ Rewrote prob-stats-plan.md using actual video titles from raw/introduction-to-st
 
 Pages touched: [[prob-stats-plan]]
 
+## [2026-04-11] schema-change | Restructured folder layout
+
+Moved notes/ and study-plans/ to top-level (out of wiki/). Restructured raw/ into subfolders: books, papers, articles, videos, images, docs. Updated source page schema: added source_type field; raw field now explicitly local path or URL. Added two new workflows to CLAUDE.md: Create Study Plan and Study Session Capture. Updated wiki/index.md with a Study Plans section.
+
+Pages touched: CLAUDE.md, [[index]]
+
 ## [2026-04-11] update | Added 79-video quick reference table to prob-stats-plan
 
 Added a new "All 79 Videos — Quick Reference" section to prob-stats-plan.md. Each of the 79 videos (S1–S35 from Introduction to Statistics and Data Analysis + P1–P44 from Probability Bootcamp) has its own row with: study day, video number, clickable YouTube link, key concepts/formulas taught, and duration in minutes. Generated via code/append_video_table.py from raw playlist JSONs. Also moved append_video_table.py into code/ as a reusable tool.

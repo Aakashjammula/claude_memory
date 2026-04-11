@@ -23,16 +23,19 @@ from datetime import date
 from typing import Optional
 
 # ── Canonical paths ──────────────────────────────────────────────────────────
-BASE         = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WIKI_DIR     = os.path.join(BASE, "wiki")
-NOTES_DIR    = os.path.join(WIKI_DIR, "notes")
-CONCEPTS_DIR = os.path.join(WIKI_DIR, "concepts")
-SOURCES_DIR  = os.path.join(WIKI_DIR, "sources")
-ENTITIES_DIR = os.path.join(WIKI_DIR, "entities")
-RAW_DIR      = os.path.join(BASE, "raw")
+BASE           = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WIKI_DIR       = os.path.join(BASE, "wiki")
+NOTES_DIR      = os.path.join(BASE, "notes")
+STUDY_PLANS_DIR = os.path.join(BASE, "study-plans")
+CONCEPTS_DIR   = os.path.join(WIKI_DIR, "concepts")
+SOURCES_DIR    = os.path.join(WIKI_DIR, "sources")
+ENTITIES_DIR   = os.path.join(WIKI_DIR, "entities")
+RAW_DIR        = os.path.join(BASE, "raw")
+PLAYLISTS_DIR  = os.path.join(RAW_DIR, "playlists")
 
 # Ensure directories exist
-for _d in [NOTES_DIR, CONCEPTS_DIR, SOURCES_DIR, ENTITIES_DIR, RAW_DIR]:
+for _d in [NOTES_DIR, STUDY_PLANS_DIR, CONCEPTS_DIR, SOURCES_DIR, ENTITIES_DIR,
+           RAW_DIR, PLAYLISTS_DIR]:
     os.makedirs(_d, exist_ok=True)
 
 # ── Date utilities ────────────────────────────────────────────────────────────

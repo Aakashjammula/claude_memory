@@ -28,8 +28,12 @@ _Last updated: 2026-04-11 | Sources: 3 | Wiki pages: 79_
 | [[my-projects]] | Index of personal coding projects with status and stack |
 | [[reading-list]] | Papers and resources queued for ingestion |
 | [[personal-themes]] | Recurring themes across personal reflections and goals |
-| [[dsa-prep]] | Dated DSA + System Design interview prep plan (Apr 11 – May 11 2026) |
-| [[prob-stats-plan]] | Probability & Statistics study plan — Steve Brunton 79 videos (Apr 11 – May 9 2026, parallel with DSA) |
+
+## Study Plans
+| Page | Topic | Duration |
+|------|-------|----------|
+| [[dsa-prep]] | DSA + System Design interview prep | Apr 11 – May 11 2026 |
+| [[prob-stats-plan]] | Probability & Statistics — Steve Brunton 79 videos | Apr 11 – May 9 2026 |
 
 ## Daily Notes
 | Page | Date | Topic |
